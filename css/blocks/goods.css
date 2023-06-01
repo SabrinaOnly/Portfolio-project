@@ -1,0 +1,171 @@
+.goods {
+    margin-bottom: 59px;
+}
+
+.goods__list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 20px;
+    width: 940px;
+    max-width: 940px;
+}
+
+.goods__items {
+    padding: 23px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding-right: 31px;
+}
+
+.goods__items:not(:last-child) {
+    overflow: hidden;
+}
+
+.goods__items div {
+    flex-grow: 1;
+}
+
+.goods__items-title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    text-transform: capitalize;
+    margin: 0;
+    margin-bottom: 14px;
+}
+
+.goods__items-button {
+    background: #FFF3;
+    padding: 10px 23px;
+    line-height: 18px;
+    font-size: 14px;
+    font-family: 'Cuprum';
+    margin: 0;
+    max-width: 136px;
+    text-transform: uppercase;
+    text-align: center;
+    border: none;
+    height: 38px;
+}
+
+.materials {
+    background-color: var(--special-yellow);
+}
+
+.tools {
+    background-color: var(--special-blue);
+}
+
+.technique {
+    background-color: var(--special-lilac);
+}
+
+.discounts {
+    background-color: var(--special-greenlight);
+}
+
+.delivery {
+    background-color: var(--special-yellow);
+}
+
+.slider {
+    grid-column: 1 / 3;
+    grid-row: 2 / 4;
+    position: relative;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.slider .top-side {
+    width: 100%;
+    max-height: 104px;
+    background-color: rgba(0, 0, 0, 0.25);
+    z-index: 1;
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-bottom: 18px;
+    display: flex;
+    flex-direction: column;
+    padding: 23px;
+}
+
+.top-side__title {
+    font-family: 'Cuprum', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 36px;
+    text-transform: uppercase;
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+.top-side__description {
+    font-family: 'Cuprum', sans-serif;
+    font-weight: 400;
+    margin: 0;
+    font-size: 18px;
+}
+
+.slider .picture {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.new {
+    width: 100px;
+    height: 30px;
+    position: absolute;
+    transform: rotate(45deg);
+    color: #fff;
+    background-color: var(--basic-red);
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    position: absolute;
+    top: 5px;
+    right: -30px;
+}
+
+.goods__items--opencatalog {
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    background-color: var(--basic-red);
+    text-align: center;
+    padding: 11px 46px;
+    text-transform: uppercase;
+    margin-bottom: 27px;
+    margin-left: 24px;
+}
+
+#buttons {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px 0 24px;
+}
+
+#buttons>button {
+    background-color: transparent;
+    border: none;
+}
+
+#buttons>button:last-child {
+    transform: rotate(180deg);
+}

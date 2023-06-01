@@ -1,0 +1,96 @@
+.page-header__main-logo:active {
+    background-color: var(--error);
+}
+
+/* .page-header__menu-left-side span:hover svg {
+    color: var(--white);
+} */
+
+.page-header__span:hover svg {
+    color: var(--white);
+}
+
+.page-header__span:active, .page-header__span:active svg {
+    background-color: #161d29;
+    color: #fff5;
+}
+
+.page-header__order:hover {
+    background-color: var(--succes);
+}
+
+.page-header__order:active {
+    opacity: 0.7;
+}
+
+.page-header__search:focus {
+    background-color: var(--white);
+    color: #000;
+}
+
+.page-header__search:focus+svg {
+    color: var(--basic-red);
+}
+
+.page-header__navigation-items:hover {
+    background: #293449;
+}
+
+.page-header__navigation-items:active {
+    opacity: 0.7;
+}
+
+.goods__items-button:hover {
+    background: #c5c5c53f;
+}
+
+.goods__items-button:active {
+    background: #a9a9a974;
+}
+
+.goods__items--opencatalog:hover {
+    background: #CA2C37;
+}
+
+.goods__items--opencatalog:active {
+    background: #BA2732;
+}
+
+.popular-product__items:hover {
+    box-shadow: 0 0 50px -15px #3335;
+}
+
+.buy:hover {
+    background: var(--succes);
+}
+
+.buy:active {
+    background: #518534;
+}
+
+.bookmarks:hover {
+    border-color: #32425C;
+}
+
+.bookmarks:active {
+    border-color: #D8D8D8;
+    color: #D8D8D8;
+}
+
+.popular-builders__item:hover {
+    box-shadow: 0 0 20px -10px #555;
+}
+
+.popular-builders__item:active {
+    opacity: 0.6;
+}
+
+.service__item:hover {
+    background-color: var(--basic-blue);
+    color: var(--white);
+}
+
+.service__item:active {
+    background-color: var(--white);
+    color: #32425C;
+}
